@@ -17,7 +17,7 @@
 <!-- 	<class name = "com.inetbanking.testcases.TC_loginTest_001" /> -->
 <!--	<class name = "com.inetbanking.testcases.TC_LoginDDT_002" />-->
 	
-	<class name = "com.inetbanking.testcases.TC_AddCustomerTest_003" />
+	<class name = "com.inetbanking.testcases.TC_frame" />
 	
 	
 	
