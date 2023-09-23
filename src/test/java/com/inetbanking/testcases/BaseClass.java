@@ -23,7 +23,7 @@ public class BaseClass {
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
 	public String  password =readconfig.getpassword();
-	
+	public String baseURL2=readconfig.getApplicationURL2();
 	
 	public static WebDriver driver;
 	
@@ -52,12 +52,13 @@ public class BaseClass {
 		}
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(baseURL);
+		driver.get(baseURL2);
 		driver.manage().window().maximize();
 	
 	
 	}
 	
-	//@AfterClass
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
